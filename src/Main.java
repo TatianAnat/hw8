@@ -35,6 +35,11 @@ public class Main {
         for(int i = 1; i <= 512; i = i * 2) {
             System.out.println(i);
         }
+        //task 8
+        System.out.println("Task 8");
+        for(int i = 1; i <= 512; i = i * 2) {
+            System.out.println(i);
+        }
 
     }
 }
