@@ -5,6 +5,11 @@ public class Main {
         for(int i = 1; i <= 10; i++) {
             System.out.println(i);
         }
+        //task 2
+        System.out.println("Task 2");
+        for(int i = 10; i > 0; i--) {
+            System.out.println(i);
+        }
 
     }
 }
