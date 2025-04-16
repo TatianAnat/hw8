@@ -51,6 +51,13 @@ public class Main {
             percent = percent + contributionPercent;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + percent + " рублей");
         }
+        //task 10
+        System.out.println("Task 10");
+        int number = 0;
+        for(int i = 1; i <= 10; i = i + 1) {
+            number = i * 2;
+           System.out.println(2 + "*" + i + " = " +  number);
+        }
 
     }
 }
