@@ -37,8 +37,10 @@ public class Main {
         }
         //task 8
         System.out.println("Task 8");
-        for(int i = 1; i <= 512; i = i * 2) {
-            System.out.println(i);
+        int contribution = 0;
+        for(int i = 1; i <= 12; i++) {
+            contribution = contribution + 29000;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + contribution + " рублей");
         }
 
     }
