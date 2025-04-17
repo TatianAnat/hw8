@@ -47,9 +47,9 @@ public class Main {
         int contributionPercent = 29000;
         int percent = 0;
         for(int i = 1; i <= 12; i++) {
-            percent = percent + percent / 100;
-            percent = percent + contributionPercent;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + percent + " рублей");
+            percent =  contributionPercent +  contributionPercent / 100;
+            contributionPercent = percent;
+                System.out.println("Месяц " + i + ", сумма накоплений равна " + contributionPercent + " рублей");
         }
         //task 10
         System.out.println("Task 10");
